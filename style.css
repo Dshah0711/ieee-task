@@ -196,7 +196,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 1px solid #e3e4e8;
 }
-button {
+.button {
   background-color: #3498db;
   color: #fff;
   border: none;
@@ -206,7 +206,13 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+  text-decoration: none;
 }
+.button a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .form1{
   background-color: aquamarine;
   /* width: 750px; */
@@ -217,7 +223,15 @@ button {
 }
 .input-inside{
   margin-bottom: 5px;
+  background-color: transparent;
 }
+
+.input-inside input {
+  background-color: transparent;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
 label {
   display: block;
   font-weight: 500;
